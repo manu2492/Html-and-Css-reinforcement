@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    font-size: 16px;
+    color: black;
+}
+
+.titles {
+    text-align: left;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 800px;
+  /* margin to center te table */
+  margin: 100px auto;
+
+}
+
+td, th {
+/*border and padding give table form  */
+  border: 1px solid #ccc;
+  padding: 10px;
+
+}
+
+tbody tr:hover {
+/* this gives a color to the arrow where the mouse is */
+  background-color: #ddd;
+}
+
+thead {
+    background-color: black;
+    color: white;
+    /* sticky and top 0 gives to the thead static position while scrolling */
+    position: sticky;
+    top: 0;
+}
+
